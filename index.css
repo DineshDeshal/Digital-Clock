@@ -1,0 +1,81 @@
+/* Set background image */
+body {
+    background-image: url("moutain.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* transform: translate(100px); */
+}
+
+/* Style clock container */
+#clock_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 100vh;
+    box-shadow: inset 10px 10px palevioletred,inset -10px -10px palevioletred;
+    animation: colo 2s reverse infinite 1s;
+}
+@keyframes colo{
+      0%{
+        box-shadow: inset 10px 10px palevioletred,inset -10px -10px palevioletred;
+      }
+      20%{
+        box-shadow: inset 10px 10px rgb(216, 214, 112),inset -10px -10px rgb(170, 115, 133);
+      }
+      40%{
+        box-shadow: inset 10px 10px rgb(80, 55, 63),inset -10px -10px rgb(112, 216, 213);
+      }
+      60%{
+        box-shadow: inset 10px 10px rgb(174, 224, 36),inset -10px -10px rgb(233, 29, 202);
+      }
+      80%{
+        box-shadow: inset 10px 10px rgb(37, 111, 239),inset -10px -10px rgb(226, 65, 11);
+      }
+      100%{
+        box-shadow: inset 10px 10px #0fe151,inset -10px -10px rgb(32, 8, 16);
+      }
+      
+ } 
+
+    
+    
+    
+@keyframes colos{
+      0%{
+        box-shadow: inset 10px 10px palevioletred,inset -10px -10px palevioletred;
+      }
+      20%{
+        box-shadow: inset 10px 10px rgb(216, 214, 112),inset -10px -10px rgb(170, 115, 133);
+      }
+      40%{
+        box-shadow: inset 10px 10px rgb(80, 55, 63),inset -10px -10px rgb(112, 216, 213);
+      }
+      60%{
+        box-shadow: inset 10px 10px rgb(174, 224, 36),inset -10px -10px rgb(233, 29, 202);
+      }
+      80%{
+        box-shadow: inset 10px 10px rgb(37, 111, 239),inset -10px -10px rgb(226, 65, 11);
+      }
+      100%{
+        box-shadow: inset 10px 10px #0fe151,inset -10px -10px rgb(32, 8, 16);
+      }
+
+      
+}
+
+#clock {
+
+    font-size: 40px;
+    color: #121210;
+    border: 2px solid salmon;
+    box-shadow: 10px 10px 10px red,-10px -10px 10px rgb(40, 211, 74);
+    padding: 40px;
+    animation: colos 2s reverse infinite 1s;
+    font-family: fantasy;
+    background: linear-gradient(180deg,#FF671F,white,#046A38);
+    text-shadow: 3px 3px 10px black;
+    animation: colos 2s reverse infinite 1s;
+    
+}
+
